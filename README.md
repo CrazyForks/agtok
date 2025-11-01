@@ -4,7 +4,7 @@ agtok is a tool for centrally managing and switching tokens and base URLs for th
 
 # 2. Preview
 
-![TUI](image.png)
+![TUI](tui-preview.png)
 
 # 3. Quick Start
 
