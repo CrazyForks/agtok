@@ -10,7 +10,20 @@ agtok is a tool for centrally managing and switching tokens and base URLs for th
 
 ## Install agtok
 
-To be added
+### Method 1: Brew install
+
+```bash
+brew tap vaspike/homebrew-agtok && brew install agtok
+```
+### Method 2: Download Release
+1. Visit the [Releases page](https://github.com/vaspike/agtok/releases)
+2. Download the corresponding release
+3. Unpacking release
+4. Execute in a terminal(create a soft link):
+   ```bash
+   sudo ln -sfn "$PWD/agtok" /usr/local/bin/agtok
+   ```
+
 
 ## Initialize Presets, run in your usual terminal:
 
