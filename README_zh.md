@@ -1,3 +1,7 @@
+
+![DevSwitcher2 Logo](https://img.shields.io/badge/agtok-0.1.2-blue?style=for-the-badge)
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/vaspike/agtok/total?style=for-the-badge&color=orange)
+
 # 1. 简介
 
 agtok 是一个用于集中管理并一键切换三类常用 CLI 的 token 与 base URL 的工具：claude-code、gemini-cli、codex-cli。它同时支持交互式 TUI 与命令行（CLI），按 Agent 分组管理预设（Preset），支持预览与应用，写入过程原子且带备份。
@@ -13,7 +17,11 @@ agtok 是一个用于集中管理并一键切换三类常用 CLI 的 token 与 b
 ### 方法 1: 使用Homebrew安装
 
 ```bash
+# 安装
 brew tap vaspike/homebrew-agtok && brew install agtok
+
+#更新
+brew upgrade agtok
 ```
 ### 方法 2: 使用发布的二进制文件
 1. 访问 [Releases page](https://github.com/vaspike/agtok/releases) 

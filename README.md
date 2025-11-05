@@ -1,3 +1,4 @@
+![DevSwitcher2 Logo](https://img.shields.io/badge/agtok-0.1.2-blue?style=for-the-badge)
 ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/vaspike/agtok/total?style=for-the-badge&color=orange)
 
 # 1. Introduction
@@ -15,7 +16,11 @@ agtok is a tool for centrally managing and switching tokens and base URLs for th
 ### Method 1: Brew install
 
 ```bash
+# Install
 brew tap vaspike/homebrew-agtok && brew install agtok
+
+# Update
+brew upgrade agtok
 ```
 ### Method 2: Download Release
 1. Visit the [Releases page](https://github.com/vaspike/agtok/releases)
